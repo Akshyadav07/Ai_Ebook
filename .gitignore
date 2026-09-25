@@ -1,0 +1,22 @@
+# Environment files
+.env
+**/.env
+
+# Python
+venv/
+**/venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+**/node_modules/
+
+# Laravel
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+
+# Frontend build
+frontend/dist/
